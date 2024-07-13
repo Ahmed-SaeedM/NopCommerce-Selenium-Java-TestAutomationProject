@@ -8,5 +8,6 @@
   "CompanyName": "AnyComopant",
   "Password":"P@ssw0rd",
   "ConfirmPassword":"P@ssw0rd",
-  "InvalidEmail": "itsokay@gmail.com"
+  "InvalidEmail": "itsokay@gmail.com",
+  "newGitCommit": "Empty"
 }
