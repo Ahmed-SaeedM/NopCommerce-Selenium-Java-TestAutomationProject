@@ -1,0 +1,12 @@
+{
+  "FirstName": "Ahmed",
+  "LastName": "Saeed",
+  "Day": "6",
+  "Month":"July",
+  "Year": "1996",
+  "Email": "AnyThintedeeass12d@gmail.com",
+  "CompanyName": "AnyComopant",
+  "Password":"P@ssw0rd",
+  "ConfirmPassword":"P@ssw0rd",
+  "InvalidEmail": "itsokay@gmail.com"
+}
