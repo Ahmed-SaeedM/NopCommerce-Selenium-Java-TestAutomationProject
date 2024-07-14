@@ -1,5 +1,6 @@
 package base;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.ITestResult;
@@ -40,7 +41,7 @@ public class BaseTest {
             TakesScreenshot camera = (TakesScreenshot) driver;
             File screenShot = camera.getScreenshotAs(OutputType.FILE);
             try {
-                com.google.common.io.Files.move(screenShot, new File("resources/screenshots/" + result.getName() + ".png"));
+                Files.move(screenShot, new File("resources/screenshots/" + result.getName() + ".png"));
             } catch (IOException e) {
                 e.getStackTrace();
             }
@@ -53,9 +54,10 @@ public class BaseTest {
     }
 
     public WindowManager getWindowManager() {
-       return new WindowManager(driver);
+        return new WindowManager(driver);
     }
-    public void closeTab(){
+
+    public void closeTab() {
         driver.close();
     }
 }
