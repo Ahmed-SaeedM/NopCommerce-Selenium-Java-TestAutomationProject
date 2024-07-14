@@ -85,6 +85,7 @@ public class HomeTests extends BaseTest {
         } else {
             System.out.println("You Have Voted Successfully With This Account Before");
         }
+        //you should be registered before running this tc
         home.clickLogOutBTN();
     }
 
